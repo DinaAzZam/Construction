@@ -243,27 +243,26 @@ img {
 }
 
 #home h3 {
-    font-size: 2.3rem;
-    font-weight: 400;
+    font-size: 1.8rem;
+    font-weight: 300; 
 }
 
 #home h2 {
-    font-size: 4.15rem;
-    font-weight: 770;
+    font-size: 2rem;
+    font-weight: 500;
     margin: 0;
     padding: 0;
-    line-height: 0.95;
+    line-height: 1.4;
 }
 
 #home h2:last-of-type {
     color: var(--main-color);
-    font-size: 4.22rem;
 }
 
 #home .main {
     max-width: 788px;
     margin: 15px auto 50px;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     line-height: 1.4;
 }
 
@@ -282,6 +281,7 @@ img {
 /* Start About Section */
 #about .row {
     flex-direction: column;
+    padding-bottom: 20px;
 }
 
 #about .col {
@@ -307,13 +307,13 @@ img {
 
 #about h2 {
     color: var(--main-color);
-    font-size: 2rem;
-    font-weight: 800;
+    font-weight: 700;
+    font-size: 1.7rem;
 }
 
 #about h3 {
     font-weight: 700;
-    font-size: 1.6rem;
+    font-size: 1.3rem;
     margin-bottom: 30px;
     color: #454545
 }
@@ -387,7 +387,6 @@ img {
         transform: scale(1, 1);
     }
 }
-
 
 #features h3 {
     color: var(--main-color);
@@ -741,6 +740,16 @@ form .form-control:focus {
 }
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
+    #home h3 {
+        font-size: 2.5rem;
+        font-weight: 400;
+    }
+    
+    #home h2 {
+        font-size: 3rem;
+        line-height: 0.95;
+    }
+
     #about .row {
         flex-direction: row-reverse;
         padding-top: 15px;
@@ -776,11 +785,13 @@ form .form-control:focus {
     }
 
     #home h2 {
-        font-size: 4.7rem;
+        font-size: 4.6rem;
+        font-weight: 770;
     }
 
     #about h2 {
-        font-size: 2.6rem;
+        font-size: 2.2rem;
+        font-weight: 800;
     }
 
     #features {
